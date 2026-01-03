@@ -3,71 +3,271 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Cleaning Girls | House Cleaning Done Right</title>
-    <meta name="description" content="Professional house cleaning services in Hartselle, AL and surrounding areas. Family-owned since 2020. Call for a free quote!">
+    <title>The Cleaning Girls | Professional House Cleaning in Hartselle, AL</title>
+    <meta name="description" content="Professional house cleaning services in Hartselle, AL and surrounding areas. Family-owned since 2020. Standard cleaning, deep cleaning, and one-time services. Call 256-612-4464 for a free quote!">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Georgia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="header-content">
-            <a href="#" class="logo-link">
-                <img src="logo.svg" alt="The Cleaning Girls" class="logo">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                <div class="logo-text">
+                    <span class="logo-name">The Cleaning Girls</span>
+                    <span class="logo-tagline">House cleaning done right!</span>
+                </div>
             </a>
             <nav class="nav">
                 <a href="#services">Services</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
             </nav>
-            <a href="tel:2566124464" class="header-cta">Call Now</a>
+            <a href="tel:2566124464" class="header-cta">256-612-4464</a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <div class="hero-badge">Family-Owned Since 2020</div>
-            <h1>The Cleaning Girls</h1>
-            <p class="tagline">House cleaning done right!</p>
-            <p class="subtext">Serving Hartselle and the surrounding 20 miles with reliable, thorough cleaning you can count on.</p>
-            <div class="cta-buttons">
-                <a href="tel:2566124464" class="cta-button cta-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                    Call Now
-                </a>
-                <a href="sms:2566124464" class="cta-button cta-secondary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                    Text Us
-                </a>
+        <div class="container hero-content">
+            <span class="hero-badge">Family-Owned Since 2020</span>
+            <h1>A Clean Home Without the Hassle</h1>
+            <p class="hero-description">Professional, reliable house cleaning for busy families in Hartselle and the surrounding area. We treat your home like our own.</p>
+            <div class="hero-cta">
+                <a href="tel:2566124464" class="btn btn-primary">Call for Free Quote</a>
+                <a href="sms:2566124464" class="btn btn-secondary">Text Us</a>
             </div>
-            <p class="phone-display">256-612-4464</p>
-        </div>
-        <div class="scroll-indicator">
-            <span>Learn More</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <span class="trust-icon">★</span>
+                    <span>5-Star Reviews</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">✓</span>
+                    <span>Insured & Bonded</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">♥</span>
+                    <span>Locally Owned</span>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Services Section (placeholder) -->
+    <!-- Services Section -->
     <section id="services" class="services">
-        <h2>Our Services</h2>
-        <p>Coming soon...</p>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What We Offer</span>
+                <h2>Cleaning Services Tailored to Your Needs</h2>
+                <p>From regular maintenance to deep cleaning, we've got you covered.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Standard Cleaning</h3>
+                    <p>Regular maintenance cleaning to keep your home fresh and tidy. Perfect for weekly, bi-weekly, or monthly visits.</p>
+                    <ul class="service-list">
+                        <li>Dusting & wiping surfaces</li>
+                        <li>Vacuuming & mopping floors</li>
+                        <li>Kitchen & bathroom cleaning</li>
+                        <li>Trash removal</li>
+                    </ul>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-icon">✨</div>
+                    <h3>Deep Cleaning</h3>
+                    <p>A thorough top-to-bottom clean for homes that need extra attention. Great for spring cleaning or first-time clients.</p>
+                    <ul class="service-list">
+                        <li>Everything in standard cleaning</li>
+                        <li>Inside appliances & cabinets</li>
+                        <li>Baseboards & door frames</li>
+                        <li>Light fixtures & ceiling fans</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3>One-Time Cleaning</h3>
+                    <p>Moving in or out? Hosting guests? We'll get your space spotless for any occasion.</p>
+                    <ul class="service-list">
+                        <li>Move-in / move-out cleaning</li>
+                        <li>Post-construction cleanup</li>
+                        <li>Special event preparation</li>
+                        <li>Vacation rental turnovers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="services-cta">
+                <p>Not sure which service is right for you?</p>
+                <a href="tel:2566124464" class="btn btn-primary">Call for a Free Estimate</a>
+            </div>
+        </div>
     </section>
 
-    <!-- About Section (placeholder) -->
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why The Cleaning Girls</span>
+                <h2>Cleaning You Can Count On</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-number">01</div>
+                    <h3>Family Values</h3>
+                    <p>We're a family-owned business that treats every home with respect and care. Your trust means everything to us.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">02</div>
+                    <h3>Reliable & Consistent</h3>
+                    <p>We show up on time, every time. You'll see the same friendly faces at each visit—no surprises.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">03</div>
+                    <h3>Attention to Detail</h3>
+                    <p>We don't cut corners. From the baseboards to the ceiling fans, we clean what others miss.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">04</div>
+                    <h3>Customer First</h3>
+                    <p>Your satisfaction is our priority. We listen to your needs and customize our service to fit your home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
     <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Coming soon...</p>
+        <div class="container about-content">
+            <div class="about-text">
+                <span class="section-tag">About Us</span>
+                <h2>Your Neighbors, Your Cleaners</h2>
+                <p>The Cleaning Girls started in 2020 with a simple mission: provide honest, reliable cleaning services that busy families can depend on.</p>
+                <p>We're not a big franchise—we're your neighbors. Owner Amanda Bussey built this business on the belief that everyone deserves to come home to a clean house without the stress of doing it themselves.</p>
+                <p>Based in Hartselle, we proudly serve families within 20 miles, bringing the same care and attention to every home we clean.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years in Business</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">20</span>
+                        <span class="stat-label">Mile Service Area</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Satisfaction Focus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Contact Section (placeholder) -->
+    <!-- Contact Section -->
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Coming soon...</p>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get Started</span>
+                <h2>Ready for a Cleaner Home?</h2>
+                <p>Contact us today for a free, no-obligation quote.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Call or Text</h3>
+                            <a href="tel:2566124464">256-612-4464</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:amcbussey@gmail.com">amcbussey@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Service Area</h3>
+                            <p>Hartselle, AL & surrounding 20 miles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Get Your Free Quote</h3>
+                    <p>Give us a call or send a text. We'll discuss your cleaning needs and provide a free estimate—no pressure, no hassle.</p>
+                    <a href="tel:2566124464" class="btn btn-primary btn-large">Call 256-612-4464</a>
+                    <a href="sms:2566124464" class="btn btn-outline">Send a Text</a>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-name">The Cleaning Girls</span>
+                <p>House cleaning done right!</p>
+                <p class="footer-location">Proudly serving Hartselle, AL and surrounding areas</p>
+            </div>
+            <div class="footer-links">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-contact">
+                <a href="tel:2566124464">256-612-4464</a>
+                <a href="mailto:amcbussey@gmail.com">amcbussey@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 The Cleaning Girls. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    // Close mobile menu if open
+                    document.querySelector('.nav').classList.remove('active');
+                    document.querySelector('.mobile-menu-btn').classList.remove('active');
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>
