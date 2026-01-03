@@ -600,6 +600,19 @@ img {
     margin-top: 4px;
 }
 
+.social-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--yellow);
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: var(--white);
+}
+
 .footer-links {
     display: flex;
     gap: 30px;
